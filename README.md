@@ -35,6 +35,8 @@ Library requirements
 - cudatoolkit (or pytorch1.X+cu1x.x)
 - mediapipe
 
+</br>
+
 ---
 
 ## 2. Prepare ##
@@ -52,7 +54,7 @@ Library requirements
 </br>
 
 ### Download pretrained models ###
-Download pretrained
+: Download pretrained
 1. e4e inversion model's pt file and locate it on /jojogan/models
 2. stylegan2 model's pt file and locate it on /jojogan/models
 3. restyle model's pt file and locate it on /restyle_encoder/pretrained_models
@@ -87,6 +89,7 @@ Our contributions are
 1. Use Restyle model for inversion and integrate it into jojogan finetuning process
 2. Implement identity loss to prevent drastic change during finetuning
 3. Implement new face align algorithm (better than jojogan's face align code) by using mediapipe model and its face mesh template
+</br>
 
 
 ### Details about our contributions ###
