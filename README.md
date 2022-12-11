@@ -1,5 +1,5 @@
 ![MAIN FIG](figures/main.jpg)
-
+<center><img src="figures/result.gif"></center>
 ---
 </br>
 <h3 align="center"> 1st YAICON : TOP prize </h3>
