@@ -128,12 +128,16 @@ ${L}_{id} = 1-sim(F(g(s_i;\theta)), F(g(s_i;\hat{\theta})))$
 
 Original face aligning algorithm often makes strange results. we assumed that the performance of dlib's face landmark detector is low or the algorithm doesn't work well. So, we replace dlib model with mediapipe model and change algorithm to use calculate orientation of face by warping detected landmark into mediapipe canonical face mesh model.
 
-Our algorithm shows better performance (both accuracy and speed!). This leads to better inversion & finetuning at our experiments.
+Our algorithm shows better performance (both accuracy and speed!). This leads to better inversion & finetuning at our experiments. </br>
+
 
 ---
 
+## 5. Result ##
 
+![Result](figures/results_all.jpg)
 
+</br>
 
-
+---
 
