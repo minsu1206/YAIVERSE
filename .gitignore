@@ -1,0 +1,9 @@
+backend/sample_images
+backend/yaiverse/inference/models
+**/migrations
+backend/yaiverse/inference/images
+*.log
+**/__pycache__
+*.sqlite3
+backend/data
+*.pt

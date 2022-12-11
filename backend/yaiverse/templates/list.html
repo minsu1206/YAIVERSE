@@ -1,0 +1,13 @@
+{% for q in qs %}
+
+<br>
+<br>
+
+col : {{q.image.col}}, image_col : {{q.image_col}} -- style : {{q.style}} -- user code : {{q.image.user_code}} -- time:{{q.timestamp|date:"Y-m-d"}}<br>
+<img src="/media/{{q.image.col}}/image.jpg" alt="image" width="200" height="200"><img src="/media/{{q.image.col}}/{{q.image_col}}.jpg" alt="image" width="200" height="200"><br>
+-----------------------------------------------------------------------
+
+
+
+
+{% endfor %}
