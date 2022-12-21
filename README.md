@@ -21,6 +21,15 @@
 </br>
 
 ---
+</br>
+
+### Notice ###
+This page is about AI model / Backend of YAIVERSE. </br>
+If you want to see FrontEnd of YAIVERSE, see [YAIVERSE-mobile](https://github.com/san9min/YAIVERSE-mobile)
+
+</br>
+
+---
 
 ## 1. Requirements ##
 
